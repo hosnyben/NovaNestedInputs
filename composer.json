@@ -1,0 +1,30 @@
+{
+    "name": "hosnyben/nova-nested-inputs",
+    "description": "Nova Nested Fields is a Laravel Nova field package that allows users to present their checkboxes or radio buttons in a nested, hierarchical structure. This package supports infinite nesting levels, providing a flexible solution for complex form requirements.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/nova": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HosnyBEN\\NovaNestedInputs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HosnyBEN\\NovaNestedInputs\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
