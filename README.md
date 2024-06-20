@@ -13,7 +13,7 @@ Nova Nested Fields is a [Laravel Nova](https://nova.laravel.com "Laravel Nova") 
 ![Nested radio input](https://hosnyben.me/images/ezgif-4-585ec047bc.gif "Nested radio buttons")
 
 
-##### Nested radios input
+##### Nested checkbox input
 ![Nested checkbox input](https://hosnyben.me/images/ezgif-4-0e1df527fe.gif "Nested radio buttons")
 
 ## Features
@@ -92,8 +92,8 @@ public function fields(Request $request)
 		'children' => [ // Array of nested item with the exact structure
 			...
 		]
-    ],
-    ...
+    	],
+    	...
 ]
 ```
 
