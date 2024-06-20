@@ -26,7 +26,7 @@ Nova Nested Fields is a [Laravel Nova](https://nova.laravel.com "Laravel Nova") 
 ## Installation 
 To install the Nova Nested Fields package, use Composer:
 ```bash
-# Install nova-settings
+# Install Nova Nested Inputs
 composer require hosnyben/nova-nested-inputs
 ```
 
@@ -103,4 +103,5 @@ public function fields(Request $request)
 
 ## Author
 ![Hosny BEN](https://hosnyben.me/images/hb-white-outline-web.png "Hosny BEN")
+--
 Made with ❤️ by [Hosny BEN](https://hosnyben.me "Hosny BEN")
